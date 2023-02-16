@@ -3,7 +3,7 @@
 def input_student_data():
     student_id = input("Enter student ID: ")
     student_name = input("Enter student name: ")
-    student_dob = input("Enter student date of birth (YYYY-MM-DD): ")
+    student_dob = input("Enter student date of birth (DD/MM/YYYY): ")
     return (student_id, student_name, student_dob)
 
 def input_course_data():
